@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SimpleTodo",
+    "slug": "SimpleTodo",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "white"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "xsrv.jp.webeeds.todoapp"
+    },
+    "android": {
+      "package": "xsrv.jp.webeeds.todoapp"
+    }    
+  }
+}
